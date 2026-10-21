@@ -16,7 +16,7 @@ namespace Farmacia.Views
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-             Application.Run(new Form1());
+             //Application.Run(new Form1());
            // Application.Run(new Farmacia.Views.Form_CLIENTES());
             // Application.Run(new Farmacia.Views.Form_Laboratoria());
             // Application.Run(new Farmacia.Views.Form_Proveedor());
@@ -25,7 +25,7 @@ namespace Farmacia.Views
             // Application.Run(new Farmacia.Views.Form_Sucursal());
             // Application.Run(new Farmacia.Views.Form_Usuario());
             // Application.Run(new Farmacia.Views.Form_Login());
-            // Application.Run(new Farmacia.Views.Form_MenuPrincipal());
+            Application.Run(new Farmacia.Views.Form_MenuPrincipal());
             // Application.Run(new Farmacia.Views.Form_Conexion());
             //Application.Run(new Form_Categoria());
             //Application.Run(new Form_Inventario());

@@ -184,6 +184,9 @@
     <EmbeddedResource Include="Views\Form_Laboratoria.resx">
       <DependentUpon>Form_Laboratoria.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Views\Form_MenuPrincipal.resx">
+      <DependentUpon>Form_MenuPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Views\Form_Personal.resx">
       <DependentUpon>Form_Personal.cs</DependentUpon>
     </EmbeddedResource>

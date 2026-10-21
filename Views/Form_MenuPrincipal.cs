@@ -16,5 +16,15 @@ namespace Farmacia.Views
         {
             InitializeComponent();
         }
+
+        private void panel_izquierda_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panel_header_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
