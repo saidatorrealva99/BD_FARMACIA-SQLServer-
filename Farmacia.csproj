@@ -178,34 +178,34 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <Content Include="Img\27.png" />
-    <Content Include="Img\6.png" />
-    <Content Include="Img\actualizar.png" />
-    <Content Include="Img\agregar.png" />
-    <Content Include="Img\borrar.png" />
-    <Content Include="Img\Buscar.png" />
-    <Content Include="Img\cerrar-sesion %281%29.png" />
-    <Content Include="Img\Chek.png" />
-    <Content Include="Img\docente.png" />
-    <Content Include="Img\escuela.png" />
-    <Content Include="Img\excel.png" />
-    <Content Include="Img\file_type_pdf_icon_130274.png" />
-    <Content Include="Img\Fondo universidad.jpg" />
-    <Content Include="Img\fondologin.jpg" />
-    <Content Include="Img\guardar-carpeta.png" />
-    <Content Include="Img\Guardar.png" />
-    <Content Include="Img\icons8-security-94.png" />
-    <Content Include="Img\information.png" />
-    <Content Include="Img\lista-de-verificacion.png" />
-    <Content Include="Img\login.png" />
-    <Content Include="Img\lupa.png" />
-    <Content Include="Img\Modificar.png" />
-    <Content Include="Img\nueva-cuenta.png" />
-    <Content Include="Img\Nuevo.png" />
-    <Content Include="Img\pdf.png" />
-    <Content Include="Img\Salir.png" />
-    <Content Include="Img\serv.png" />
-    <Content Include="Img\update.png" />
+    <Content Include="Imagenes\27.png" />
+    <Content Include="Imagenes\6.png" />
+    <Content Include="Imagenes\actualizar.png" />
+    <Content Include="Imagenes\agregar.png" />
+    <Content Include="Imagenes\borrar.png" />
+    <Content Include="Imagenes\Buscar.png" />
+    <Content Include="Imagenes\cerrar-sesion %281%29.png" />
+    <Content Include="Imagenes\Chek.png" />
+    <Content Include="Imagenes\docente.png" />
+    <Content Include="Imagenes\escuela.png" />
+    <Content Include="Imagenes\excel.png" />
+    <Content Include="Imagenes\file_type_pdf_icon_130274.png" />
+    <Content Include="Imagenes\Fondo universidad.jpg" />
+    <Content Include="Imagenes\fondologin.jpg" />
+    <Content Include="Imagenes\guardar-carpeta.png" />
+    <Content Include="Imagenes\Guardar.png" />
+    <Content Include="Imagenes\icons8-security-94.png" />
+    <Content Include="Imagenes\information.png" />
+    <Content Include="Imagenes\lista-de-verificacion.png" />
+    <Content Include="Imagenes\login.png" />
+    <Content Include="Imagenes\lupa.png" />
+    <Content Include="Imagenes\Modificar.png" />
+    <Content Include="Imagenes\nueva-cuenta.png" />
+    <Content Include="Imagenes\Nuevo.png" />
+    <Content Include="Imagenes\pdf.png" />
+    <Content Include="Imagenes\Salir.png" />
+    <Content Include="Imagenes\serv.png" />
+    <Content Include="Imagenes\update.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
