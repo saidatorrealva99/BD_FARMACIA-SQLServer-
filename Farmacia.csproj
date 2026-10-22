@@ -58,17 +58,53 @@
     <Compile Include="Views\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Views\Form_Area.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Form_Area.Designer.cs">
+      <DependentUpon>Form_Area.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Form_Cargo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Form_Cargo.Designer.cs">
+      <DependentUpon>Form_Cargo.cs</DependentUpon>
+    </Compile>
     <Compile Include="Views\Form_CLIENTES.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Views\Form_CLIENTES.Designer.cs">
       <DependentUpon>Form_CLIENTES.cs</DependentUpon>
     </Compile>
+    <Compile Include="Views\Form_Compra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Form_Compra.Designer.cs">
+      <DependentUpon>Form_Compra.cs</DependentUpon>
+    </Compile>
     <Compile Include="Views\Form_Conexion.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Views\Form_Conexion.Designer.cs">
       <DependentUpon>Form_Conexion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Form_detalle_compra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Form_detalle_compra.Designer.cs">
+      <DependentUpon>Form_detalle_compra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Form_detalle_receta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Form_detalle_receta.Designer.cs">
+      <DependentUpon>Form_detalle_receta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Form_detalle_venta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Form_detalle_venta.Designer.cs">
+      <DependentUpon>Form_detalle_venta.cs</DependentUpon>
     </Compile>
     <Compile Include="Views\Form_Laboratoria.cs">
       <SubType>Form</SubType>
@@ -124,6 +160,12 @@
     <Compile Include="Views\Form_Sucursal.Designer.cs">
       <DependentUpon>Form_Sucursal.cs</DependentUpon>
     </Compile>
+    <Compile Include="Views\Form_Tipo_Personal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Form_Tipo_Personal.Designer.cs">
+      <DependentUpon>Form_Tipo_Personal.cs</DependentUpon>
+    </Compile>
     <Compile Include="Views\Form_Usuario.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -178,8 +220,26 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Views\Form_Area.resx">
+      <DependentUpon>Form_Area.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Form_Cargo.resx">
+      <DependentUpon>Form_Cargo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Views\Form_CLIENTES.resx">
       <DependentUpon>Form_CLIENTES.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Form_Compra.resx">
+      <DependentUpon>Form_Compra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Form_detalle_compra.resx">
+      <DependentUpon>Form_detalle_compra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Form_detalle_receta.resx">
+      <DependentUpon>Form_detalle_receta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Form_detalle_venta.resx">
+      <DependentUpon>Form_detalle_venta.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\Form_Laboratoria.resx">
       <DependentUpon>Form_Laboratoria.cs</DependentUpon>
@@ -201,6 +261,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Views\Form_Sucursal.resx">
       <DependentUpon>Form_Sucursal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Form_Tipo_Personal.resx">
+      <DependentUpon>Form_Tipo_Personal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\Form_Usuario.resx">
       <DependentUpon>Form_Usuario.cs</DependentUpon>
