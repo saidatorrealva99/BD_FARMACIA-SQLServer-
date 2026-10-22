@@ -64,6 +64,42 @@
     <Compile Include="Views\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Views\Form_Categoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Form_Categoria.Designer.cs">
+      <DependentUpon>Form_Categoria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Form_Inventario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Form_Inventario.Designer.cs">
+      <DependentUpon>Form_Inventario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Form_Lote.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Form_Lote.Designer.cs">
+      <DependentUpon>Form_Lote.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Form_Presentacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Form_Presentacion.Designer.cs">
+      <DependentUpon>Form_Presentacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Form_Producto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Form_Producto.Designer.cs">
+      <DependentUpon>Form_Producto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Form_Venta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Form_Venta.Designer.cs">
+      <DependentUpon>Form_Venta.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -76,6 +112,24 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Views\Form_Categoria.resx">
+      <DependentUpon>Form_Categoria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Form_Inventario.resx">
+      <DependentUpon>Form_Inventario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Form_Lote.resx">
+      <DependentUpon>Form_Lote.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Form_Presentacion.resx">
+      <DependentUpon>Form_Presentacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Form_Producto.resx">
+      <DependentUpon>Form_Producto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Form_Venta.resx">
+      <DependentUpon>Form_Venta.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

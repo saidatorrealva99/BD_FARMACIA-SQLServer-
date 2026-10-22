@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Farmacia
+namespace Farmacia.Views
 {
     internal static class Program
     {
@@ -16,7 +16,12 @@ namespace Farmacia
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            //Application.Run(new Form_Categoria());
+            //Application.Run(new Form_Inventario());
+            //Application.Run(new Form_Lote());
+            //Application.Run(new Form_Presentacion());
+            //Application.Run(new Form_Producto());
+            Application.Run(new Form_Venta());
         }
     }
 }
