@@ -8,18 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Farmacia
+namespace Farmacia.Views
 {
-    public partial class Form1 : Form
+    public partial class Form_Receta : Form
     {
-        public Form1()
+        public Form_Receta()
         {
             InitializeComponent();
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

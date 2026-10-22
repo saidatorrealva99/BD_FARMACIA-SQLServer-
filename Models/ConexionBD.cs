@@ -8,5 +8,7 @@ namespace Farmacia.Models
 {
     internal class ConexionBD
     {
+
+
     }
 }
