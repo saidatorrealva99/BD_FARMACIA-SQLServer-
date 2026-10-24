@@ -210,6 +210,7 @@
     </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -219,6 +220,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="Views\Form_Area.resx">
       <DependentUpon>Form_Area.cs</DependentUpon>
@@ -329,6 +331,34 @@
     <Content Include="Imagenes\Salir.png" />
     <Content Include="Imagenes\serv.png" />
     <Content Include="Imagenes\update.png" />
+    <None Include="Resources\update.png" />
+    <None Include="Resources\serv.png" />
+    <None Include="Resources\Salir.png" />
+    <None Include="Resources\pdf.png" />
+    <None Include="Resources\Nuevo.png" />
+    <None Include="Resources\nueva-cuenta.png" />
+    <None Include="Resources\Modificar.png" />
+    <None Include="Resources\lupa.png" />
+    <None Include="Resources\login.png" />
+    <None Include="Resources\lista-de-verificacion.png" />
+    <None Include="Resources\information.png" />
+    <None Include="Resources\icons8-security-94.png" />
+    <None Include="Resources\guardar-carpeta.png" />
+    <None Include="Resources\Guardar.png" />
+    <None Include="Resources\fondologin.jpg" />
+    <None Include="Resources\Fondo universidad.jpg" />
+    <None Include="Resources\file_type_pdf_icon_130274.png" />
+    <None Include="Resources\excel.png" />
+    <None Include="Resources\escuela.png" />
+    <None Include="Resources\docente.png" />
+    <None Include="Resources\Chek.png" />
+    <None Include="Resources\cerrar-sesion %281%29.png" />
+    <None Include="Resources\Buscar.png" />
+    <None Include="Resources\borrar.png" />
+    <None Include="Resources\agregar.png" />
+    <None Include="Resources\actualizar.png" />
+    <None Include="Resources\27.png" />
+    <None Include="Resources\6.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
